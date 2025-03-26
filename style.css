@@ -1,0 +1,643 @@
+:root {
+  --uppercase-font-family: "Montserrat", Helvetica;
+  --uppercase-font-weight: 400;
+  --uppercase-font-size: 14px;
+  --uppercase-letter-spacing: 0px;
+  --uppercase-line-height: normal;
+  --uppercase-font-style: normal;
+}
+.frame {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .div {
+    background-color: #ffffff;
+    width: 1920px;
+    height: 3568px;
+    position: relative;
+  }
+  
+  .frame .footer {
+    position: absolute;
+    width: 1204px;
+    height: 50px;
+    top: 1558px;
+    left: 360px;
+    background-color: transparent;
+  }
+  
+  .frame .button {
+    all: unset;
+    box-sizing: border-box;
+    position: absolute;
+    width: 152px;
+    height: 40px;
+    top: 10px;
+    left: 1050px;
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    background-color: #95e1d3;
+  }
+  
+  .frame .main-text-twonty_one {
+    position: absolute;
+    top: 11px;
+    left: 38px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .overlap {
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    top: 10px;
+    left: 820px;
+    background-image: url(./img/vector-1.svg);
+    background-size: 100% 100%;
+  }
+  
+  .frame .main-text-twonty {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    font-family: "Roboto-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #b6b6b6;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .footer-text {
+    position: absolute;
+    top: 23px;
+    left: 0;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .span {
+    color: #333333;
+  }
+
+  .frame .main-text-nineteen {
+    color: #000000;
+  }
+  
+  .frame .main-text-eighteen {
+    color: #f38181;
+  }
+  
+  .frame .line {
+    width: 1200px;
+    height: 1px;
+    top: -1px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .frame .men {
+    position: absolute;
+    width: 1200px;
+    height: 546px;
+    top: 932px;
+    left: 360px;
+  }
+  
+  .frame .firstman {
+    position: absolute;
+    width: 384px;
+    height: 546px;
+    top: 0;
+    left: 0;
+  }
+  
+  .frame .main-text-seven {
+    position: absolute;
+    top: 500px;
+    left: 147px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #333333;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .main-text-sixteen {
+    position: absolute;
+    top: 528px;
+    left: 142px;
+    font-family: "Roboto-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #b6b6b6;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .img {
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .frame .secondman {
+    position: absolute;
+    width: 384px;
+    height: 546px;
+    top: 0;
+    left: 410px;
+  }
+  
+  .frame .main-text-fivteen {
+    left: 113px;
+    position: absolute;
+    top: 500px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #333333;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .main-text-fourteen {
+    position: absolute;
+    top: 528px;
+    left: 128px;
+    font-family: "Roboto-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #b6b6b6;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .thirdman {
+    position: absolute;
+    width: 384px;
+    height: 545px;
+    top: 0;
+    left: 820px;
+  }
+  
+  .frame .main-text-thirten {
+    left: 139px;
+    position: absolute;
+    top: 500px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #333333;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .main-text-twelwe {
+    position: absolute;
+    top: 527px;
+    left: 158px;
+    font-family: "Roboto-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #b6b6b6;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .main-b {
+    position: absolute;
+    width: 1110px;
+    height: 221px;
+    top: 684px;
+    left: 408px;
+  }
+  
+  .frame .main-text-elevin {
+    position: absolute;
+    top: 0;
+    left: 495px;
+    font-family: "Kaushan Script-Regular", Helvetica;
+    font-weight: 400;
+    color: #333333;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .main-text-ten {
+    position: absolute;
+    top: 52px;
+    left: 436px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #333333;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .rectangle {
+    width: 60px;
+    height: 4px;
+    top: 125px;
+    left: 522px;
+    position: absolute;
+    background-color: #f38181;
+  }
+  
+  .frame .p {
+    width: 1104px;
+    top: 174px;
+    left: 0;
+    text-align: center;
+    line-height: normal;
+    position: absolute;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #b6b6b6;
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+  
+  .frame .benefits {
+    position: absolute;
+    width: 1168px;
+    height: 253px;
+    top: 331px;
+    left: 390px;
+  }
+  
+  .frame .main-item-six {
+    position: absolute;
+    width: 371px;
+    height: 74px;
+    top: 176px;
+    left: 801px;
+  }
+  
+  .frame .digitalmarketing {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    top: 3px;
+    left: 0;
+  }
+  
+  .frame .main-text-six {
+    position: absolute;
+    top: 0;
+    left: 57px;
+    font-family: var(--uppercase-font-family);
+    font-weight: var(--uppercase-font-weight);
+    color: #333333;
+    font-size: var(--uppercase-font-size);
+    letter-spacing: var(--uppercase-letter-spacing);
+    line-height: var(--uppercase-line-height);
+    font-style: var(--uppercase-font-style);
+  }
+  
+  .frame .main-text-seven {
+    position: absolute;
+    width: 310px;
+    top: 37px;
+    left: 57px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #b6b6b6;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .frame .main-item-five {
+    position: absolute;
+    width: 371px;
+    height: 74px;
+    top: 179px;
+    left: 401px;
+  } 
+  
+  .frame .main-item-four {
+    position: absolute;
+    width: 370px;
+    height: 74px;
+    top: 174px;
+    left: 0;
+  }
+  
+  .frame .paper {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    top: 0;
+    left: 0;
+  }
+  
+  .frame .lineicons {
+    width: 35px;
+    height: 31px;
+    top: 3px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .frame .main-text-nine {
+    position: absolute;
+    top: 0;
+    left: 56px;
+    font-family: var(--uppercase-font-family);
+    font-weight: var(--uppercase-font-weight);
+    color: #333333;
+    font-size: var(--uppercase-font-size);
+    letter-spacing: var(--uppercase-letter-spacing);
+    line-height: var(--uppercase-line-height);
+    font-style: var(--uppercase-font-style);
+  }
+  
+  .frame .main-text-eight {
+    width: 310px;
+    top: 37px;
+    left: 56px;
+    line-height: 22px;
+    position: absolute;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #b6b6b6;
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+  
+  .frame .main-item-three {
+    position: absolute;
+    width: 371px;
+    height: 74px;
+    top: 0;
+    left: 801px;
+  }
+  
+  .frame .display {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/group-8.png);
+    background-size: 100% 100%;
+  }
+  
+  .frame .main-item-two {
+    position: absolute;
+    width: 334px;
+    height: 74px;
+    top: 0;
+    left: 401px;
+  }
+  
+  .frame .bargraph {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    top: 3px;
+    left: 0;
+    background-image: url(./img/group-9.png);
+    background-size: 100% 100%;
+  }
+  
+  .frame .main-text-five {
+    width: 274px;
+    top: 37px;
+    left: 56px;
+    line-height: 22px;
+    position: absolute;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #b6b6b6;
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+  
+  .frame .main-item-one {
+    position: absolute;
+    width: 336px;
+    height: 74px;
+    top: 0;
+    left: 0;
+  }
+  
+  .frame .alarm {
+    position: absolute;
+    width: 38px;
+    height: 37px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/group-3.png);
+    background-size: 100% 100%;
+  }
+  
+  .frame .main-text-four {
+    width: 99px;
+    position: absolute;
+    top: 0;
+    left: 56px;
+    font-family: var(--uppercase-font-family);
+    font-weight: var(--uppercase-font-weight);
+    color: #333333;
+    font-size: var(--uppercase-font-size);
+    letter-spacing: var(--uppercase-letter-spacing);
+    line-height: var(--uppercase-line-height);
+    font-style: var(--uppercase-font-style);
+  }
+  
+  .frame .main-text-three {
+    width: 276px;
+    top: 37px;
+    left: 56px;
+    line-height: 22px;
+    position: absolute;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #b6b6b6;
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+  
+  .frame .main {
+    position: absolute;
+    width: 279px;
+    height: 136px;
+    top: 130px;
+    left: 820px;
+  }
+  
+  .frame .main-text-two {
+    position: absolute;
+    top: 0;
+    left: 73px;
+    font-family: "Kaushan Script-Regular", Helvetica;
+    font-weight: 400;
+    color: #333333;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .main-text-one {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #333333;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .rectangle-two {
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    top: 132px;
+    left: 110px;
+    background-color: #f38181;
+  }
+  
+  .frame .header {
+    position: absolute;
+    width: 1202px;
+    height: 45px;
+    top: 17px;
+    left: 360px;
+    background-color: transparent;
+  }
+  
+  .frame .header-list {
+    position: absolute;
+    width: 480px;
+    height: 30px;
+    top: 15px;
+    left: 730px;
+  }
+  
+  .frame .header-item-five {
+    top: 0;
+    left: 107px;
+    color: #95e1d3;
+    position: absolute;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .header-item-four {
+    top: 0;
+    left: 224px;
+    color: #95e1d3;
+    position: absolute;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .header-item-three {
+    top: 3px;
+    left: 327px;
+    color: #95e1d3;
+    position: absolute;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .header-item-two {
+    top: 0;
+    left: 0;
+    color: #f38181;
+    position: absolute;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .header-item-one {
+    top: 0;
+    left: 401px;
+    color: #95e1d3;
+    position: absolute;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .rectangle-three {
+    width: 50px;
+    height: 3px;
+    top: 27px;
+    left: 1px;
+    position: absolute;
+    background-color: #f38181;
+  }
+  
+  .frame .header-logo {
+    position: absolute;
+    width: 98px;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #95e1d3;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
